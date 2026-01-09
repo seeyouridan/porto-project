@@ -42,17 +42,19 @@ function App() {
 				</div>
 
 				<div className="content -mt-25">
-					<div className="grid grid-cols-4 gap-4 ">
-						<div className="col-start-1 col-end-4 text-left align-middle items-center object-center m-auto max-w-xl pt-20">
-							<h2 className="text-[45px] font-bold text-base/10">
+					<div className="grid grid-cols-4 gap-4 pr-15">
+						<div className="col-start-1 col-end-4 m-auto max-w-2xl pt-20 ">
+							<h2 className="text-[55px] font-bold text-base/13">
 								MUHAMMAD RAFLY MAULIDAN NICO TENGES
 							</h2>
 							<br />
-							<p className="text-sm opacity-90">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-								qui saepe pariatur esse repellendus dolore magni velit fuga
-								consequuntur sed officiis aut illum facere ipsam tenetur
-								blanditiis quam, harum doloribus!
+							<p className="text-sm opacity-90 max-w-xl">
+								I am a fresh graduate with an interest in Frontend Development.
+								I have experience building web interfaces using HTML, CSS, and
+								JavaScript, and I am currently developing personal projects with
+								React. I enjoy creating clean, responsive, and user-friendly
+								designs, and I continuously improve my skills through hands-on
+								projects.
 							</p>
 						</div>
 						<div className="col-span-3 col-end-7 text-right">
