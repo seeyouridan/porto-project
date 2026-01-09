@@ -6,7 +6,7 @@ function App() {
 			<nav></nav>
 
 			<header>
-				<div className="container bg-[#121212] text-white m-auto max-w-full pt-5 pb-5">
+				<div className="container bg-[#121212] text-[#edede4] m-auto max-w-full pt-5 pb-5">
 					<div className="grid grid-cols-2 gap-4 py-10 px-16">
 						<div className="col-start-1 col-end-3">Frontend Developer</div>
 						<div className="col-span-2 col-end-7 text-right"></div>
@@ -22,17 +22,15 @@ function App() {
 						</div>
 
 						<div className="absolute translate-y-42">
-							<h1 className="text-[125px] font-bold scale-y-150">
+							<h1 className="text-[125px] font-bold scale-y-150 tracking-tighter">
 								INTRODUCTION
 							</h1>
 						</div>
 
-						<div className="max-w-175 text-center pt-20">
+						<div className="max-w-md text-center text-sm pt-20 opacity-90">
 							<p>
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-								hic illum labore excepturi, officia totam nobis? Dolores vel
-								reprehenderit dignissimos tenetur, dolorum perspiciatis sunt
-								officiis sed quod, labore et fugit?
+								A Frontend Developer focused on building clean UI, responsive,
+								and user-friendly web interfaces
 							</p>
 						</div>
 					</div>
@@ -41,7 +39,9 @@ function App() {
 						<div className="col-start-1 col-end-3">
 							Muhammad Rafly Maulidan Nico Tenges
 						</div>
-						<div className="col-span-2 col-end-7 text-right">03</div>
+						<div className="col-span-2 col-end-7 text-right">
+							raflymaulidan019@gmail.com
+						</div>
 					</div>
 				</div>
 			</header>
