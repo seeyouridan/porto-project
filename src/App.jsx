@@ -14,7 +14,7 @@ function App() {
 					<div className="flex flex-col items-center gap-4">
 						<div className="h-72 w-full max-w-6xl overflow-hidden rounded-sm">
 							<img
-								src="src/assets/img/header.JPG"
+								src="./img/header.jpg"
 								className="h-full w-full object-cover object-[center_48%] scale-125"
 								alt="header"
 							/>
@@ -58,11 +58,7 @@ function App() {
 							</p>
 						</div>
 						<div className="col-span-3 col-end-7 text-right">
-							<img
-								src="src/assets/img/image-me.png"
-								className="h-140"
-								alt="image-me"
-							/>
+							<img src="./img/image-me.png" className="h-140" alt="image-me" />
 						</div>
 					</div>
 				</div>
