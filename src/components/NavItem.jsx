@@ -3,7 +3,7 @@ function NavItem({ href, label }) {
 		<li>
 			<a
 				href={href}
-				className="text-[#edede4] hover:text-[#9c9797] hover:duration-150"
+				className="text-[#edede4] hover:text-[#9c9797] duration-300"
 			>
 				{label}
 			</a>

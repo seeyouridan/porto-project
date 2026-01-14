@@ -2,7 +2,7 @@ function Span({ icon, label, href }) {
 	const baseClass =
 		"inline-flex items-center gap-2 px-2 py-1 " +
 		"border border-[#edede4]/20 rounded-xl text-xs " +
-		"hover:border-[#edede4]/80 transition";
+		"hover:border-[#edede4]/80 duration-300";
 
 	const content = (
 		<>
