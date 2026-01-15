@@ -51,10 +51,11 @@ function App() {
 							<h1 className="text-[150px] font-tall">INTRODUCTION</h1>
 						</div>
 
-						<div className="max-w-md text-center text-md pt-18 opacity-90">
+						<div className="max-w-xl text-center text-md pt-18 opacity-90">
 							<p>
 								A Frontend Developer focused on building clean UI, responsive,
-								and user-friendly web interfaces
+								and user-friendly web interfaces. Also experienced in graphic
+								design and basic video editing.
 							</p>
 						</div>
 					</div>
@@ -74,11 +75,10 @@ function App() {
 							</h2>
 							<br />
 							<p className="text-sm opacity-90 max-w-xl leading-relaxed">
-								I am a fresh graduate focusing on Frontend Development with
-								experience building responsive web interfaces using{" "}
-								<Span {...span[0]} /> and <Span {...span[1]} />. I enjoy
-								creating clean, user-friendly designs and continuously improving
-								my skills through hands-on projects.
+								A fresh graduate with a strong interest in frontend development.
+								I build responsive web interfaces using <Span {...span[0]} />{" "}
+								and <Span {...span[1]} />, focusing on clarity, usability, <br /> and
+								visual balance across devices.
 							</p>
 						</div>
 						<div className="col-end-4">
