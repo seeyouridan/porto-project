@@ -77,8 +77,8 @@ function App() {
 							<p className="text-sm opacity-90 max-w-xl leading-relaxed">
 								A fresh graduate with a strong interest in frontend development.
 								I build responsive web interfaces using <Span {...span[0]} />{" "}
-								and <Span {...span[1]} />, focusing on clarity, usability, <br /> and
-								visual balance across devices.
+								and <Span {...span[1]} />, focusing on clarity, usability,{" "}
+								<br /> and visual balance across devices.
 							</p>
 						</div>
 						<div className="col-end-4">
