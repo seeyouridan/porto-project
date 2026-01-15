@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
+.font-tall {
+	font-family: 'Arial Narrow';
+	font-weight: bold;
+}
+
 .font-custom {
-	font-family: "MyFont", sans-serif;
-	font-weight: 600;
+	font-family: "myfont", sans-serif;
+	font-weight: bold;
 }
 
 :root {

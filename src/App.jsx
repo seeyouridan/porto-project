@@ -24,7 +24,7 @@ function App() {
 	return (
 		<>
 			<nav className="bg-[#121212] text-[#edede4]">
-				<div className="grid grid-cols-2 py-10 px-35 m-auto">
+				<div className="grid grid-cols-2 py-10 px-35">
 					<img src="/Icon.png" className="h-7 rounded-2xl" alt="" />
 					<div className="col-end-4">
 						<ul className="flex gap-6 text-sm font-medium">
@@ -47,8 +47,8 @@ function App() {
 							/>
 						</div>
 
-						<div className="absolute translate-y-48">
-							<h1 className="text-[125px] font-custom tracking-tighter">
+						<div className="absolute translate-y-44">
+							<h1 className="text-[150px] font-tall">
 								INTRODUCTION
 							</h1>
 						</div>
