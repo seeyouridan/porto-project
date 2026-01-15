@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import NavItem from "./components/NavItem";
 import Span from "./components/SpanHighlight";
+import Icon from "./components/IconLink";
 
 const navItems = [
 	{ href: "#", label: "Home" },
@@ -14,11 +15,16 @@ const span = [
 	{ icon: "fa-css", label: "Tailwind CSS", href: "https://tailwindcss.com/" },
 ];
 
+const icon = [
+	{ icon: "fa-github", href: "https://github.com/seeyouridan" },
+	{ icon: "fa-whatsapp", href: "https://wa.me/6288212797825" },
+];
+
 function App() {
 	return (
 		<>
 			<nav className="bg-[#121212] text-[#edede4]">
-				<div className="grid grid-cols-2 py-10 px-16 max-w-350 m-auto">
+				<div className="grid grid-cols-2 py-10 px-35 m-auto">
 					<img src="/Icon.png" className="h-7 rounded-2xl" alt="" />
 					<div className="col-end-4">
 						<ul className="flex gap-6 text-sm font-medium">
@@ -31,7 +37,7 @@ function App() {
 			</nav>
 
 			<header className="bg-[#121212] text-[#edede4]">
-				<div className="container m-auto max-w-full pt-5 pb-5">
+				<div className="hero m-auto max-w-full pt-5 pb-5">
 					<div className="flex flex-col items-center gap-4">
 						<div className="h-72 w-full max-w-6xl overflow-hidden rounded-sm">
 							<img
@@ -41,8 +47,8 @@ function App() {
 							/>
 						</div>
 
-						<div className="absolute translate-y-42">
-							<h1 className="text-[125px] font-bold scale-y-150 tracking-tighter">
+						<div className="absolute translate-y-48">
+							<h1 className="text-[125px] font-custom tracking-tighter">
 								INTRODUCTION
 							</h1>
 						</div>
