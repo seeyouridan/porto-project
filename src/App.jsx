@@ -6,6 +6,7 @@ import Icon from "./components/IconLink";
 
 const navItems = [
 	{ href: "/", label: "Home" },
+	{ href: "#", label: "About" },
 	{ href: "#", label: "Project" },
 	{ href: "#", label: "Contact" },
 ];
@@ -24,7 +25,7 @@ function App() {
 	return (
 		<>
 			<nav className="bg-[#121212] text-[#edede4]">
-				<div className="grid grid-cols-2 py-10 px-35">
+				<div className="grid grid-cols-2 py-10 px-50">
 					<img src="/Icon.png" className="h-7 rounded-2xl" alt="" />
 					<div className="col-end-4">
 						<ul className="flex gap-6 text-sm font-medium">
@@ -48,14 +49,16 @@ function App() {
 						</div>
 
 						<div className="absolute translate-y-44">
-							<h1 className="text-[150px] font-tall">INTRODUCTION</h1>
+							<h1 className="text-[150px] opacity-80 font-tall">
+								INTRODUCTION
+							</h1>
 						</div>
 
-						<div className="max-w-xl text-center text-md pt-18 opacity-90">
+						<div className="max-w-xl text-center text-md pt-18 text-shadow-md text-shadow-white/50">
 							<p>
-								A Frontend Developer focused on building clean UI, responsive,
-								and user-friendly web interfaces. Also experienced in graphic
-								design and basic video editing.
+								Information Technology graduate focusing on front-end
+								development, building clean, responsive, and user-friendly web
+								interfaces. Also experienced in basic video editing.
 							</p>
 						</div>
 					</div>
@@ -68,17 +71,16 @@ function App() {
 				</div>
 
 				<div className="content -mt-30">
-					<div className="grid grid-cols-2 gap-4 max-w-350 m-auto px-20">
+					<div className="grid grid-cols-2 gap-4 max-w-7xl m-auto px-20">
 						<div className="m-auto pt-20 w-2xl">
 							<h2 className="text-[55px] font-bold text-base/13">
 								MUHAMMAD RAFLY MAULIDAN NICO TENGES
 							</h2>
 							<br />
-							<p className="text-sm opacity-90 max-w-xl leading-relaxed">
-								A fresh graduate with a strong interest in frontend development.
+							<p className="text-sm max-w-xl leading-relaxed text-shadow-md text-shadow-white/50">
 								I build responsive web interfaces using <Span {...span[0]} />{" "}
-								and <Span {...span[1]} />, focusing on clarity, usability,{" "}
-								<br /> and visual balance across devices.
+								and <Span {...span[1]} />, focusing on clarity, usability, and
+								visual balance across devices.
 							</p>
 						</div>
 						<div className="col-end-4">
@@ -93,8 +95,8 @@ function App() {
 			</header>
 
 			<section>
-				<div className="controller px-8 py-16 w-full bg-[#f6f6ee] text-[#121212]">
-					<div className="heading font-custom text-center text-[70px]">
+				<div className="controller px-8 py-12 w-full bg-[#f6f6ee] text-[#121212]">
+					<div className="heading font-custom text-center text-[60px]">
 						<h1>EDUCATION BACKGROUND</h1>
 					</div>
 					<div className="relative max-w-6xl m-auto border border-[#121212]/30 rounded-md p-8 bg-white text-center px-12 py-10">
