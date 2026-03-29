@@ -84,14 +84,13 @@ function App() {
 							</h2>
 							<br /> <hr className="w-15 py-1" />
 							<p className="text-md max-w-xl leading-relaxed">
-								{/* I build responsive web interfaces using <Span {...span[0]} />{" "}
-								and <Span {...span[1]} />, focusing on clarity, usability, and
-								visual balance across devices. */}
-								I build high-quality, responsive web interfaces focused on
-								delivering <br /> seamless user experiences, clean design, and
-								optimal performance <br /> across all devices.
+								I'm passionate about building high-quality, responsive web
+								interfaces focused on <br />
+								delivering seamless user experiences, clean design, and optimal
+								performance <br /> across all devices.
 							</p>
 						</div>
+
 						<div className="col-end-4 opacity-75">
 							<img src="./img/image-me3.png" className="h-120" alt="image-me" />
 						</div>
