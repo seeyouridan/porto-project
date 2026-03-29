@@ -71,24 +71,29 @@ function App() {
 				</div>
 
 				<div className="content -mt-30">
-					<div className="grid grid-cols-2 gap-4 max-w-7xl m-auto px-20">
-						<div className="m-auto pt-20 w-2xl">
-							<h2 className="text-[55px] font-bold text-base/13">
-								MUHAMMAD RAFLY MAULIDAN NICO TENGES
+					<div className="grid grid-cols-2 gap-2 pt-20 pb-10 max-w-7xl m-auto px-20">
+						<div className="m-auto w-2xl">
+							<h1 className="text-[28px] font-bold">
+								Hallo <span className="wave">👋</span>
+							</h1>
+							<h2 className="text-[28px] font-bold text-base/13">
+								I am{" "}
+								<span className="text-white text-[30px] text-shadow-md text-shadow-white/50">
+									Muhammad Rafly Maulidan Nico Tenges
+								</span>
 							</h2>
-							<br />
-							<p className="text-sm max-w-xl leading-relaxed text-shadow-md text-shadow-white/50">
-								I build responsive web interfaces using <Span {...span[0]} />{" "}
+							<br /> <hr className="w-15 py-1" />
+							<p className="text-md max-w-xl leading-relaxed">
+								{/* I build responsive web interfaces using <Span {...span[0]} />{" "}
 								and <Span {...span[1]} />, focusing on clarity, usability, and
-								visual balance across devices.
+								visual balance across devices. */}
+								I build high-quality, responsive web interfaces focused on
+								delivering <br /> seamless user experiences, clean design, and
+								optimal performance <br /> across all devices.
 							</p>
 						</div>
-						<div className="col-end-4">
-							<img
-								src="./img/image-me.png"
-								className="h-140 opacity-70"
-								alt="image-me"
-							/>
+						<div className="col-end-4 opacity-75">
+							<img src="./img/image-me3.png" className="h-120" alt="image-me" />
 						</div>
 					</div>
 				</div>
