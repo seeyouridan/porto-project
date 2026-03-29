@@ -74,7 +74,7 @@ function App() {
 					<div className="grid grid-cols-2 gap-2 pt-20 pb-10 max-w-7xl m-auto px-20">
 						<div className="m-auto w-2xl">
 							<h1 className="text-[28px] font-bold">
-								Hallo <span className="wave">👋</span>
+								Hi <span className="wave">👋</span>
 							</h1>
 							<h2 className="text-[28px] font-bold text-base/13">
 								I am{" "}
@@ -83,12 +83,15 @@ function App() {
 								</span>
 							</h2>
 							<br /> <hr className="w-15 py-1" />
-							<p className="text-md max-w-xl leading-relaxed">
+							<p className="text-md max-w-md leading-relaxed text-justify">
 								I'm passionate about building high-quality, responsive web
-								interfaces focused on <br />
-								delivering seamless user experiences, clean design, and optimal
-								performance <br /> across all devices.
+								interfaces focused on delivering seamless user experiences,
+								clean design, and optimal performance across all devices.
 							</p>
+							<br />
+							<button className="btn">
+								Download CV <i className="fa fa-solid fa-file"></i>
+							</button>
 						</div>
 
 						<div className="col-end-4 opacity-75">
