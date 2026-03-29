@@ -40,7 +40,7 @@ function App() {
 			<header className="bg-[#121212] text-[#edede4]">
 				<div className="hero m-auto max-w-full pt-5 pb-5">
 					<div className="flex flex-col items-center gap-4">
-						<div className="h-72 w-full max-w-6xl overflow-hidden rounded-sm">
+						<div className="h-72 w-6xl overflow-hidden rounded-sm">
 							<img
 								src="./img/header.jpg"
 								className="h-full w-full object-cover object-[center_48%] scale-125"
@@ -70,7 +70,7 @@ function App() {
 					</div>
 				</div>
 
-				<div className="content -mt-30">
+				<div className="content -mt-20">
 					<div className="grid grid-cols-2 gap-2 pt-20 pb-10 max-w-7xl m-auto px-20">
 						<div className="m-auto w-2xl">
 							<h1 className="text-[28px] font-bold">

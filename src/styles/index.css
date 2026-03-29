@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 .font-tall {
 	font-family: "Arial Narrow";
