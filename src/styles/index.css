@@ -23,7 +23,7 @@
 }
 
 .infinite-scroll {
-	animation: animate-infinite-scroll 40s linear infinite;
+	animation: animate-infinite-scroll 50s linear infinite;
 }
 
 @keyframes wave-animation {
