@@ -1,24 +1,17 @@
-import { useState } from "react";
+// import { useState } from "react";
 
+// component
 import NavItem from "./components/NavItem";
-import Span from "./components/SpanHighlight";
-import Icon from "./components/IconLink";
+
+// images
+import HeaderImg from "./assets/images/header.jpg";
+import Avatar from "./assets/images/image-me3.png";
 
 const navItems = [
 	{ href: "/", label: "Home" },
 	{ href: "#", label: "About" },
 	{ href: "#", label: "Project" },
 	{ href: "#", label: "Contact" },
-];
-
-const span = [
-	{ icon: "fa-react", label: "React.js", href: "https://react.dev/" },
-	{ icon: "fa-css", label: "Tailwind CSS", href: "https://tailwindcss.com/" },
-];
-
-const icon = [
-	{ icon: "fa-github", href: "https://github.com/seeyouridan" },
-	{ icon: "fa-whatsapp", href: "https://wa.me/6288212797825" },
 ];
 
 function App() {
@@ -42,7 +35,7 @@ function App() {
 					<div className="flex flex-col items-center gap-4">
 						<div className="h-72 w-6xl overflow-hidden rounded-sm">
 							<img
-								src="./img/header.jpg"
+								src={HeaderImg}
 								className="h-full w-full object-cover object-[center_48%] scale-125"
 								alt="header"
 							/>
@@ -95,55 +88,14 @@ function App() {
 						</div>
 
 						<div className="col-end-4 opacity-75">
-							<img src="./img/image-me3.png" className="h-120" alt="image-me" />
+							<img src={Avatar} className="h-120" alt="image-me" />
 						</div>
 					</div>
 				</div>
 			</header>
 
 			<section>
-				<div className="controller px-8 py-12 w-full bg-[#f6f6ee] text-[#121212]">
-					<div className="heading font-custom text-center text-[60px]">
-						<h1>EDUCATION BACKGROUND</h1>
-					</div>
-					<div className="relative max-w-6xl m-auto border border-[#121212]/30 rounded-md p-8 bg-white text-center px-12 py-10">
-						<div className="absolute top-21.5 left-12 right-12 h-px bg-[#121212]"></div>
-
-						<div className="grid grid-cols-2 gap-16 text-center">
-							<div className="relative">
-								<p className="font-semibold">2018 - 2021</p>
-
-								<div className="absolute left-1/2 -translate-x-1/2 top-9.5 w-4 h-4 rounded-full bg-[#121212]"></div>
-
-								<h3 className="font-bold text-lg mt-10">
-									SMK NEGERI 1 CIANJUR
-								</h3>
-								<p className="italic text-sm mt-1">Software Engineering</p>
-								<p className="text-sm mt-4 text-[#121212]/70">
-									This final project creates a web-based public complaint system
-									using Laravel, implementing the MVC architecture to create a
-									well-structured, maintainable, and efficient application
-								</p>
-							</div>
-
-							<div className="relative">
-								<p className="font-semibold">2021 - 2025</p>
-
-								<div className="absolute left-1/2 -translate-x-1/2 top-9.5 w-4 h-4 rounded-full bg-[#121212]"></div>
-
-								<h3 className="font-bold text-lg mt-10">
-									UNIVERSITAS SURYAKANCANA
-								</h3>
-								<p className="italic text-sm mt-1">Informatics Engineering</p>
-								<p className="text-sm mt-4 text-[#121212]/70">
-									This final project involves creates a Discord bot using
-									Discord.js with a music player feature using Distube and a
-									chatbot feature using the DeepSeek-R1 model
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
+				<div className="tech"></div>
 			</section>
 
 			<footer></footer>
