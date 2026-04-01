@@ -2,6 +2,7 @@
 
 // component
 import NavItem from "./components/NavItem";
+import InfiniteScroll from "./components/InfiniteScroll";
 
 // images
 import HeaderImg from "./assets/images/header.jpg";
@@ -13,6 +14,9 @@ const navItems = [
 	{ href: "#", label: "Project" },
 	{ href: "#", label: "Contact" },
 ];
+
+const linkCv =
+	"https://drive.google.com/file/d/1OkFwXgMW1Q4mmLP749UJxpkIIEzsioTa/view?usp=sharing";
 
 function App() {
 	return (
@@ -57,7 +61,7 @@ function App() {
 					</div>
 				</div>
 
-				<div className="content -mt-20">
+				<div className="content">
 					<div className="grid grid-cols-2 gap-2 pt-20 pb-10 max-w-7xl m-auto px-20">
 						<div className="m-auto w-2xl">
 							<h1 className="text-[28px] font-bold">
@@ -76,11 +80,7 @@ function App() {
 								clean design, and optimal performance across all devices.
 							</p>
 							<br />
-							<a
-								href="https://drive.google.com/file/d/1OkFwXgMW1Q4mmLP749UJxpkIIEzsioTa/view?usp=sharing"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
+							<a href={linkCv} target="_blank" rel="noopener noreferrer">
 								<button className="btn">
 									Download CV <i className="fa fa-solid fa-file"></i>
 								</button>
@@ -95,7 +95,12 @@ function App() {
 			</header>
 
 			<section>
-				<div className="tech"></div>
+				<div className="tech m-auto max-w-7xl px-20 py-10">
+					<h2 className="text-center pb-6 text-6xl font-custom">TECH</h2>
+					<div className="overflow-hidden w-full max-w-xl m-auto flex">
+						<InfiniteScroll />
+					</div>
+				</div>
 			</section>
 
 			<footer></footer>
