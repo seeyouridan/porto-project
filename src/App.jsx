@@ -62,12 +62,6 @@ function App() {
 							</p>
 						</div>
 					</div>
-
-					<div className="grid grid-cols-2 gap-4 pt-10 px-16">
-						<div className="col-start-1 col-end-3">
-							<span className="font-bold text-2xl">&nbsp;</span>
-						</div>
-					</div>
 				</div>
 
 				<div className="content -mt-20">
@@ -89,9 +83,15 @@ function App() {
 								clean design, and optimal performance across all devices.
 							</p>
 							<br />
-							<button className="btn">
-								Download CV <i className="fa fa-solid fa-file"></i>
-							</button>
+							<a
+								href="https://drive.google.com/file/d/1OkFwXgMW1Q4mmLP749UJxpkIIEzsioTa/view?usp=sharing"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<button className="btn">
+									Download CV <i className="fa fa-solid fa-file"></i>
+								</button>
+							</a>
 						</div>
 
 						<div className="col-end-4 opacity-75">
