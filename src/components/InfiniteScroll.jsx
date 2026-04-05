@@ -17,7 +17,7 @@ function InfiniteScroll() {
 					return (
 						<i
 							key={index}
-							className={`fa-brands ${icon.iconName} text-[80px] opacity-30`}
+							className={`fa-brands ${icon.iconName} text-[60px] opacity-30`}
 						></i>
 					);
 				})}
@@ -27,7 +27,7 @@ function InfiniteScroll() {
 					return (
 						<i
 							key={index}
-							className={`fa-brands ${icon.iconName} text-[80px] opacity-30`}
+							className={`fa-brands ${icon.iconName} text-[60px] opacity-30`}
 						></i>
 					);
 				})}
