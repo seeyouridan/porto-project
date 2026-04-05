@@ -96,8 +96,8 @@ function App() {
 
 			<section>
 				<div className="tech m-auto max-w-7xl px-20 py-10">
-					<h2 className="text-center pb-6 text-6xl font-custom text-shadow-md text-shadow-white/50">
-						TECH
+					<h2 className="text-center pb-6 text-4xl font-custom text-shadow-md text-shadow-white/50">
+						Tools & Skills
 					</h2>
 					<div className="overflow-hidden w-full max-w-xl m-auto flex">
 						<InfiniteScroll />
