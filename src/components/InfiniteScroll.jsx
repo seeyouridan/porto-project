@@ -7,6 +7,8 @@ const icons = [
 	{ iconName: "fa-tailwind-css" },
 	{ iconName: "fa-react" },
 	{ iconName: "fa-laravel" },
+	{ iconName: "fa-github" },
+	{ iconName: "fa-gitlab" },
 ];
 
 function InfiniteScroll() {
