@@ -14,7 +14,7 @@ const icons = [
 function InfiniteScroll() {
 	return (
 		<>
-			<div className="flex gap-8 infinite-scroll">
+			<div className="flex gap-8 infinite-scroll pr-4">
 				{[...icons, ...icons].map((icon, index) => {
 					return (
 						<i
