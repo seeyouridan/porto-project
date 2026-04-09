@@ -1,9 +1,9 @@
 export default {
 	content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
-		extend: {
+		extends: {
 			fontFamily: {
-				myfont: ["MyFont", "sans-serif"],
+				montserrat: ["Montserrat", "sans-serif"],
 			},
 		},
 	},
