@@ -45,8 +45,8 @@ function App() {
 							/>
 						</div>
 
-						<div className="absolute translate-y-44">
-							<h1 className="text-[150px] opacity-80 font-tall">
+						<div className="absolute translate-y-45">
+							<h1 className="text-[140px] opacity-90 font-bold">
 								INTRODUCTION
 							</h1>
 						</div>
@@ -96,9 +96,12 @@ function App() {
 
 			<section>
 				<div className="tech m-auto max-w-7xl px-20 py-10">
-					<h2 className="text-center pb-6 text-4xl font-custom text-shadow-md text-shadow-white/50">
+					<h2 className="text-center pb-6 text-4xl text-shadow-md text-shadow-white/50">
 						Tools & Skills
 					</h2>
+					<h3 className="w-full max-w-xl m-auto pb-4 text-md font-[Montserrat]">
+						BASED ON LEARNING :
+					</h3>
 					<div className="overflow-hidden w-full max-w-xl m-auto flex">
 						<InfiniteScroll />
 					</div>
