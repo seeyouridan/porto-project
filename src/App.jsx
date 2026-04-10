@@ -5,8 +5,8 @@ import NavItem from "./components/NavItem";
 import InfiniteScroll from "./components/InfiniteScroll";
 
 // images
-import HeaderImg from "./assets/images/header.jpg";
-import Avatar from "./assets/images/image-me3.png";
+import HeaderImg from "./assets/images/hero-image.jpg";
+import Avatar from "./assets/images/about-image-dark.png";
 
 const navItems = [
 	{ href: "/", label: "Home" },
@@ -96,15 +96,18 @@ function App() {
 
 			<section>
 				<div className="tech m-auto max-w-7xl px-20 py-10">
-					<h2 className="text-center pb-6 text-4xl text-shadow-md text-shadow-white/50">
+					<h2 className="text-center pb-6 text-4xl font-bold text-shadow-md text-shadow-white/50">
 						Tools & Skills
 					</h2>
 					<h3 className="w-full max-w-xl m-auto pb-4 text-md font-[Montserrat]">
-						BASED ON LEARNING :
+						Based on Learning :
 					</h3>
 					<div className="overflow-hidden w-full max-w-xl m-auto flex">
 						<InfiniteScroll />
 					</div>
+					<h3 className="w-full max-w-xl m-auto pb-4 pt-12 text-md font-[Montserrat]">
+						Other :
+					</h3>
 				</div>
 			</section>
 
