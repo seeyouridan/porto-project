@@ -12,7 +12,7 @@ import Avatar from "./assets/images/about-image-dark.png";
 import SchoolGif from "./assets/gif/school-animate-light.gif";
 
 const navItems = [
-	{ href: "/", label: "Home" },
+	{ href: "#home", label: "Home" },
 	{ href: "#about", label: "About" },
 	{ href: "#project", label: "Project" },
 	{ href: "#contact", label: "Contact" },
@@ -24,9 +24,11 @@ const linkCv =
 function App() {
 	return (
 		<>
-			<nav className="bg-[#121212] text-[#edede4]">
+			<nav className="bg-[#121212]/30 text-[#edede4] fixed top-0 left-0 w-full z-50">
 				<div className="grid grid-cols-2 py-10 px-50">
-					<img src="/Icon.png" className="h-7 rounded-2xl" alt="" />
+					<a href="/">
+						<img src="/Icon.png" className="h-7 rounded-2xl" alt="" />
+					</a>
 					<div className="col-end-4">
 						<ul className="flex gap-6 text-sm font-medium font-[Montserrat]">
 							{navItems.map((item) => (
@@ -37,7 +39,7 @@ function App() {
 				</div>
 			</nav>
 
-			<header className="bg-[#121212] text-[#edede4]">
+			<header className="bg-[#121212] text-[#edede4] pt-27" id="home">
 				<div className="hero m-auto max-w-full pt-5 pb-5">
 					<div className="flex flex-col items-center gap-4">
 						<div className="h-72 w-6xl overflow-hidden rounded-sm">
