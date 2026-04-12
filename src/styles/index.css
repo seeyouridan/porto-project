@@ -58,5 +58,5 @@
 }
 
 @utility btn {
-	@apply bg-transparent border-[#f6f6ee] text-[#f6f6ee] hover:bg-[#f6f6ee] hover:text-[#121212];
+	@apply bg-transparent font-[Montserrat] border-[#f6f6ee] text-[#f6f6ee] hover:bg-[#f6f6ee] hover:text-[#121212];
 }

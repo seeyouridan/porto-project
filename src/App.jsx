@@ -8,6 +8,9 @@ import InfiniteScroll from "./components/InfiniteScroll";
 import HeaderImg from "./assets/images/hero-image.jpg";
 import Avatar from "./assets/images/about-image-dark.png";
 
+// gif
+import SchoolGif from "./assets/gif/school-animate-light.gif";
+
 const navItems = [
 	{ href: "/", label: "Home" },
 	{ href: "#", label: "About" },
@@ -25,7 +28,7 @@ function App() {
 				<div className="grid grid-cols-2 py-10 px-50">
 					<img src="/Icon.png" className="h-7 rounded-2xl" alt="" />
 					<div className="col-end-4">
-						<ul className="flex gap-6 text-sm font-medium">
+						<ul className="flex gap-6 text-sm font-medium font-[Montserrat]">
 							{navItems.map((item) => (
 								<NavItem key={item.href} href={item.href} label={item.label} />
 							))}
@@ -52,7 +55,7 @@ function App() {
 						</div>
 
 						<div className="max-w-xl text-center text-md pt-18 text-shadow-md text-shadow-white/50">
-							<p>
+							<p className="font-[Montserrat]">
 								Information Technology graduate focusing on front-end
 								development, building clean, responsive, and user-friendly web
 								interfaces. Also experienced in basic video editing.
@@ -62,7 +65,7 @@ function App() {
 				</div>
 
 				<div className="content">
-					<div className="grid grid-cols-2 gap-2 pt-20 pb-10 max-w-7xl m-auto px-20">
+					<div className="grid grid-cols-2 gap-2 py-10 max-w-7xl m-auto px-20">
 						<div className="m-auto w-2xl">
 							<h1 className="text-[28px] font-bold">
 								Hi <span className="wave">👋</span>
@@ -74,7 +77,7 @@ function App() {
 								</span>
 							</h2>
 							<br /> <hr className="w-15 py-1" />
-							<p className="text-md max-w-md leading-relaxed text-justify">
+							<p className="text-md max-w-md leading-relaxed text-justify font-[Montserrat]">
 								I'm passionate about building high-quality, responsive web
 								interfaces focused on delivering seamless user experiences,
 								clean design, and optimal performance across all devices.
@@ -96,18 +99,54 @@ function App() {
 
 			<section>
 				<div className="tech m-auto max-w-7xl px-20 py-10">
-					<h2 className="text-center pb-6 text-4xl font-bold text-shadow-md text-shadow-white/50">
-						Tools & Skills
+					<h2 className="text-center pb-10 text-4xl font-bold text-shadow-md text-shadow-white/50">
+						TOOLS & SKILLS
 					</h2>
-					<h3 className="w-full max-w-xl m-auto pb-4 text-md font-[Montserrat]">
+					<p className="w-full max-w-xl m-auto pb-4 font-[Montserrat]">
 						Based on Learning :
-					</h3>
+					</p>
 					<div className="overflow-hidden w-full max-w-xl m-auto flex">
 						<InfiniteScroll />
 					</div>
-					<h3 className="w-full max-w-xl m-auto pb-4 pt-12 text-md font-[Montserrat]">
-						Other :
-					</h3>
+				</div>
+
+				<br />
+
+				<div className="education grid grid-cols-2 gap-2 py-10 pb-10 max-w-6xl m-auto px-20">
+					<div className="m-auto w-md">
+						<h2 className="pb-6 text-6xl font-bold text-shadow-md text-shadow-white/50">
+							EDUCATIONS
+						</h2>
+						<div className="school-grade font-[Montserrat]">
+							<div className="flex gap-2 pt-4">
+								<div className="badge h-10">
+									<i className="fa-solid fa-graduation-cap m-1"></i>
+								</div>
+								<div>
+									<h3 className="text-lg font-semibold">
+										SMK Negeri 1 Cianjur
+									</h3>
+									<p className="text-sm opacity-70">Software Engineering</p>
+									<span className="text-xs opacity-50">2019 - 2021</span>
+								</div>
+							</div>
+							<div className="flex gap-2 pt-4">
+								<div className="badge h-10">
+									<i className="fa-solid fa-graduation-cap m-1"></i>
+								</div>
+								<div>
+									<h3 className="text-lg font-semibold">
+										Suryakancana University
+									</h3>
+									<p className="text-sm opacity-70">Informatics Engineering</p>
+									<span className="text-xs opacity-50">2021 - 2025</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="w-xs m-auto">
+						<img src={SchoolGif} alt="school-animate" className="float-right" />
+					</div>
 				</div>
 			</section>
 
