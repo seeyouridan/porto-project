@@ -13,9 +13,9 @@ import SchoolGif from "./assets/gif/school-animate-light.gif";
 
 const navItems = [
 	{ href: "/", label: "Home" },
-	{ href: "#", label: "About" },
-	{ href: "#", label: "Project" },
-	{ href: "#", label: "Contact" },
+	{ href: "#about", label: "About" },
+	{ href: "#project", label: "Project" },
+	{ href: "#contact", label: "Contact" },
 ];
 
 const linkCv =
@@ -64,7 +64,7 @@ function App() {
 					</div>
 				</div>
 
-				<div className="content">
+				<div className="about" id="about">
 					<div className="grid grid-cols-2 gap-2 py-10 max-w-7xl m-auto px-20">
 						<div className="m-auto w-2xl">
 							<h1 className="text-[28px] font-bold">
