@@ -19,7 +19,7 @@ const navItems = [
 ];
 
 const linkCv =
-	"https://drive.google.com/file/d/1OkFwXgMW1Q4mmLP749UJxpkIIEzsioTa/view?usp=sharing";
+	"https://drive.google.com/file/d/1Jl0zJeuwVva0lzSZOT9PcH79hqNDhY7X/view?usp=sharing";
 
 function App() {
 	return (
