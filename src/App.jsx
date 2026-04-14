@@ -80,9 +80,9 @@ function App() {
 							</h2>
 							<br /> <hr className="w-15 py-1" />
 							<p className="text-md max-w-md leading-relaxed text-justify font-[Montserrat]">
-								I'm passionate about building high-quality, responsive web
-								interfaces focused on delivering seamless user experiences,
-								clean design, and optimal performance across all devices.
+								I'm particularly interested in front-end development,
+								specifically building responsive, clean, and user-friendly
+								website interfaces across devices.
 							</p>
 							<br />
 							<a href={linkCv} target="_blank" rel="noopener noreferrer">
