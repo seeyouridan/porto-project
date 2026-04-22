@@ -28,7 +28,7 @@ function App() {
 				</div>
 			</nav>
 
-			<header className="bg-[#121212] text-[#edede4] pt-27" id="home">
+			<header className=" pt-27" id="home">
 				<div className="hero m-auto max-w-full pt-5 pb-5">
 					<div className="flex flex-col items-center gap-4">
 						<div className="h-72 w-6xl overflow-hidden rounded-sm">
@@ -63,7 +63,7 @@ function App() {
 							</h1>
 							<h2 className="text-[28px] font-bold text-base/13">
 								I am{" "}
-								<span className="text-white text-[30px] text-shadow-md text-shadow-white/50">
+								<span className="text-[#edede4] text-[30px] text-shadow-md text-shadow-white/50">
 									Muhammad Rafly Maulidan Nico Tenges
 								</span>
 							</h2>
@@ -141,7 +141,26 @@ function App() {
 				</div>
 			</section>
 
-			<footer></footer>
+			<footer className="footer sm:footer-horizontal footer-center p-4">
+				<aside>
+					<div className="text-[#edede4] opacity-35 font-xs font-[Montserrat] text-shadow-md text-shadow-white/50">
+						<p>
+							Copyright © {new Date().getFullYear()} Rafly. All rights reserved.
+						</p>
+						<p>
+							Animated icons by{" "}
+							<a
+								href="https://lordicon.com"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="underline"
+							>
+								Lordicon
+							</a>
+						</p>
+					</div>
+				</aside>
+			</footer>
 		</>
 	);
 }
