@@ -12,13 +12,13 @@ import Avatar from "./assets/images/about-image-dark.png";
 import SchoolGif from "./assets/gif/school-animate-light.gif";
 
 const linkCv =
-	"https://drive.google.com/file/d/1Jl0zJeuwVva0lzSZOT9PcH79hqNDhY7X/view?usp=sharing";
+	"https://drive.google.com/file/d/1mWOdy1WDvYnFW1coIC-HMehRo26dhD0L/view?usp=sharing";
 
 function App() {
 	return (
 		<>
 			<nav className="bg-[#121212]/30 text-[#edede4] fixed top-0 left-0 w-full z-50">
-				<div className="flex justify-between items-center py-10 px-6 md:px-50">
+				<div className="flex justify-between items-center md:py-10 py-6 px-6 md:px-50">
 					<a href="/">
 						<img src="/Icon.png" className="h-7 rounded-2xl" alt="" />
 					</a>
@@ -33,29 +33,31 @@ function App() {
 				</div>
 			</nav>
 
-			<header className=" pt-27" id="home">
+			<header className="md:pt-27 pt-15" id="home">
 				<div className="hero m-auto max-w-full pt-5 pb-5">
-					<div className="flex flex-col items-center gap-4">
-						<div className="md:h-72 md:w-6xl h-48 max-w-5xl w-full overflow-hidden md:rounded-sm">
+					<div className="gap-4 max-w-full relative w-screen md:w-auto">
+						<div className="md:h-72 md:w-6xl w-full h-48 overflow-hidden md:rounded-sm">
 							<img
 								src={HeaderImg}
-								className="h-full w-full object-cover object-[center_48%] scale-125"
+								className="h-full w-full object-cover object-[center_48%] md:scale-125 scale-250"
 								alt="header"
 							/>
 						</div>
 
-						<div className="absolute translate-y-45 hidden md:block">
-							<h1 className="text-[140px] opacity-90 font-bold">
+						<div className="absolute left-1/2 -translate-x-1/2 -translate-y-30 hidden md:block">
+							<h1 className="text-[140px] text-center w-full opacity-90 font-bold">
 								INTRODUCTION
 							</h1>
 						</div>
 
-						<div className="absolute translate-y-28 md:hidden">
-							<h1 className="text-[100px] opacity-90 font-bold">INTRO</h1>
+						<div className="absolute left-1/2 -translate-x-1/2 -translate-y-20 md:hidden">
+							<h1 className="text-[100px] text-center w-full opacity-90 font-bold">
+								INTRO
+							</h1>
 						</div>
 
-						<div className="w-full max-w-[320px] md:max-w-xl text-center pt-10 md:pt-18 text-shadow-md text-shadow-white/50">
-							<p className="font-[Montserrat] text-[12px] md:text-[16px]">
+						<div className="w-full max-w-[320px] md:max-w-xl m-auto pt-15 md:pt-18 text-shadow-md text-shadow-white/50">
+							<p className="font-[Montserrat] text-[12px] md:text-[16px] text-center">
 								Information Technology graduate focusing on front-end
 								development, building clean, responsive, and user-friendly web
 								interfaces. Also experienced in basic video editing.
