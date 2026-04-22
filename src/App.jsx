@@ -34,11 +34,11 @@ function App() {
 			<main className="relative">
 				<header className="md:pt-27 pt-15" id="home">
 					<div className="hero m-auto max-w-full pt-5 pb-5">
-						<div className="gap-4 max-w-full relative w-screen md:w-auto">
+						<div className="gap-4 max-w-full relative w-full md:w-auto">
 							<div className="md:h-72 md:w-6xl w-full h-48 overflow-hidden md:rounded-sm">
 								<img
 									src={HeaderImg}
-									className="h-full w-full object-cover object-[center_48%] md:scale-125 scale-250"
+									className="h-full w-full object-cover object-[center_48%] md:scale-125 scale-200"
 									alt="header"
 								/>
 							</div>
