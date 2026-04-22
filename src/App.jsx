@@ -51,7 +51,7 @@ function App() {
 						</div>
 
 						<div className="absolute left-1/2 -translate-x-1/2 -translate-y-20 md:hidden">
-							<h1 className="text-[100px] text-center w-full opacity-90 font-bold">
+							<h1 className="text-[105px] text-center w-full opacity-90 font-extrabold">
 								INTRO
 							</h1>
 						</div>
