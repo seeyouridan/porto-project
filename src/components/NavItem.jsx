@@ -11,11 +11,10 @@ function NavItem() {
 			<ul className="flex gap-6 text-sm font-medium font-[Montserrat]">
 				{items.map((item, index) => {
 					return (
-						<li>
+						<li key={index}>
 							<a
-								key={index}
 								href={`${item.href}`}
-								className="text-[#edede4] hover:text-[#9c9797] duration-300"
+								className="text-[#edede4] hover:text-[#edede4]/60 duration-300 hover:text-shadow-md hover:text-shadow-[#edede4]/50"
 							>
 								{`${item.label}`}
 							</a>
