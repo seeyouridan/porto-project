@@ -11,13 +11,6 @@ import Avatar from "./assets/images/about-image-dark.png";
 // gif
 import SchoolGif from "./assets/gif/school-animate-light.gif";
 
-const navItems = [
-	{ href: "#home", label: "Home" },
-	{ href: "#about", label: "About" },
-	{ href: "#project", label: "Project" },
-	{ href: "#contact", label: "Contact" },
-];
-
 const linkCv =
 	"https://drive.google.com/file/d/1Jl0zJeuwVva0lzSZOT9PcH79hqNDhY7X/view?usp=sharing";
 
@@ -30,11 +23,7 @@ function App() {
 						<img src="/Icon.png" className="h-7 rounded-2xl" alt="" />
 					</a>
 					<div className="col-end-4">
-						<ul className="flex gap-6 text-sm font-medium font-[Montserrat]">
-							{navItems.map((item) => (
-								<NavItem key={item.href} href={item.href} label={item.label} />
-							))}
-						</ul>
+						<NavItem />
 					</div>
 				</div>
 			</nav>
