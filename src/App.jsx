@@ -66,19 +66,19 @@ function App() {
 					</div>
 
 					<div className="about" id="about">
-						<div className="grid grid-cols-2 gap-2 py-10 max-w-7xl m-auto px-20">
+						<div className="md:flex block gap-2 py-10 max-w-7xl m-auto md:px-20 px-5">
 							<div className="m-auto w-2xl">
-								<h1 className="text-[28px] font-bold">
+								<h1 className="md:text-[28px] text-[14px] font-bold">
 									Hi <span className="wave">👋</span>
 								</h1>
-								<h2 className="text-[28px] font-bold text-base/13">
+								<h2 className="md:text-[28px] text-[14px] font-bold">
 									I am{" "}
-									<span className="text-[#edede4] text-[30px] text-shadow-md text-shadow-white/50">
+									<span className="text-[#edede4] md:text-[30px] text-[16px] text-shadow-md text-shadow-white/50">
 										Muhammad Rafly Maulidan Nico Tenges
 									</span>
 								</h2>
 								<br /> <hr className="w-15 py-1" />
-								<p className="text-md max-w-md leading-relaxed text-justify font-[Montserrat]">
+								<p className="md:text-md text-xs max-w-md leading-relaxed text-justify font-[Montserrat]">
 									I'm particularly interested in front-end development,
 									specifically building responsive, clean, and user-friendly
 									website interfaces across devices.
