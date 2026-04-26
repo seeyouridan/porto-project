@@ -68,12 +68,12 @@ function App() {
 					<div className="about" id="about">
 						<div className="md:flex block gap-2 py-10 max-w-7xl m-auto md:px-20 px-5">
 							<div className="m-auto w-2xl">
-								<h1 className="md:text-[28px] text-[14px] font-bold">
+								<h1 className="md:text-[28px] text-[24px] font-bold">
 									Hi <span className="wave">👋</span>
 								</h1>
-								<h2 className="md:text-[28px] text-[14px] font-bold">
-									I am{" "}
-									<span className="text-[#edede4] md:text-[30px] text-[16px] text-shadow-md text-shadow-white/50">
+								<h2 className="md:text-[28px] text-[14px] font-bold md:max-w-3xl max-w-sm">
+									I am,{" "}
+									<span className="text-[#edede4] md:text-[30px] text-[20px] text-shadow-md text-shadow-white/50">
 										Muhammad Rafly Maulidan Nico Tenges
 									</span>
 								</h2>
