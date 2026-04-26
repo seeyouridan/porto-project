@@ -78,7 +78,7 @@ function App() {
 									</span>
 								</h2>
 								<br /> <hr className="w-15 py-1" />
-								<p className="md:text-md text-xs max-w-md leading-relaxed text-justify font-[Montserrat]">
+								<p className="md:text-[14px] text-[12px] md:max-w-md max-w-xs leading-relaxed text-justify font-[Montserrat]">
 									I'm particularly interested in front-end development,
 									specifically building responsive, clean, and user-friendly
 									website interfaces across devices.
