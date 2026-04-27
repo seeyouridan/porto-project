@@ -156,6 +156,14 @@ function App() {
 						</div>
 					</div>
 				</section>
+
+				<div>
+					<center>
+						<h1 className="font-[Montserrat] text-lg font-bold text-shadow-md text-shadow-white/50">
+							<span className="wave">🛠️</span> Work in Progress...
+						</h1>
+					</center>
+				</div>
 			</main>
 
 			<footer className="footer sm:footer-horizontal footer-center p-4">
