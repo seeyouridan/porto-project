@@ -13,32 +13,28 @@ const items = [
 ];
 
 function InfiniteScroll() {
+	const renderItems = (ariaHidden = false) => (
+		<div
+			className="flex gap-5 sm:gap-8 infinite-scroll pr-4"
+			aria-hidden={ariaHidden || undefined}
+		>
+			{[...items, ...items].map((item, index) => (
+				<div key={index} className="flex flex-col items-center">
+					<i
+						className={`${item.icon} text-[40px] sm:text-[60px] opacity-30`}
+					></i>
+					<span className="text-xs sm:text-sm opacity-50 mt-2 font-[Montserrat]">
+						{item.name}
+					</span>
+				</div>
+			))}
+		</div>
+	);
+
 	return (
 		<>
-			<div className="flex gap-8 infinite-scroll pr-4">
-				{[...items, ...items].map((item, index) => {
-					return (
-						<div key={index} className="flex flex-col items-center">
-							<i
-								className={`${item.icon} text-[60px] opacity-30`}
-							></i>
-							<span className="text-sm opacity-50 mt-2 font-[Montserrat]">{item.name}</span>
-						</div>
-					);
-				})}
-			</div>
-			<div className="flex gap-8 infinite-scroll" aria-hidden="true">
-				{[...items, ...items].map((item, index) => {
-					return (
-						<div key={index} className="flex flex-col items-center">
-							<i
-								className={`fa-brands ${item.icon} text-[60px] opacity-30`}
-							></i>
-							<span className="text-sm opacity-50 mt-2 font-[Montserrat]">{item.name}</span>
-						</div>
-					);
-				})}
-			</div>
+			{renderItems()}
+			{renderItems(true)}
 		</>
 	);
 }

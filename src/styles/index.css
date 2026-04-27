@@ -5,6 +5,7 @@
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	background-color: #121212;
 	color: #f6f6ee;
+	--bg-color: #121212;
 }
 
 html {
@@ -14,6 +15,31 @@ html {
 @font-face {
 	font-family: "Montserrat";
 	src: url("../assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+.scroll-fade {
+    position: relative;
+}
+
+.scroll-fade::before,
+.scroll-fade::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.scroll-fade::before {
+    left: 0;
+    background: linear-gradient(to right, var(--bg-color), transparent);
+}
+
+.scroll-fade::after {
+    right: 0;
+    background: linear-gradient(to left, var(--bg-color), transparent);
 }
 
 .wave {
