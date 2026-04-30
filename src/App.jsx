@@ -112,12 +112,9 @@ function App() {
 
 				<section>
 					<div className="tech m-auto max-w-7xl px-4 sm:px-10 md:px-20 py-10">
-						<h2 className="text-center pb-10 text-4xl font-bold text-shadow-md text-shadow-white/50">
+						<h2 className="text-center pb-8 text-4xl font-bold text-shadow-md text-shadow-white/50">
 							TOOLS & SKILLS
 						</h2>
-						<p className="md:max-w-2xl max-w-md m-auto pb-4 font-[Montserrat]">
-							Based on Learning :
-						</p>
 						<div className="overflow-hidden md:max-w-2xl max-w-md m-auto flex scroll-fade">
 							<InfiniteScroll />
 						</div>
