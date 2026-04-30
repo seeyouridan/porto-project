@@ -10,7 +10,7 @@ import Avatar from "./assets/images/about-image-dark.png";
 import SchoolGif from "./assets/gif/school-animate-light.gif";
 
 const linkCv =
-	"https://drive.google.com/file/d/1mWOdy1WDvYnFW1coIC-HMehRo26dhD0L/view?usp=sharing";
+	"https://drive.google.com/file/d/1bBeIVDfVWl_k-H9Is8K7L2qHj4l0Fvef/view?usp=sharing";
 
 function App() {
 	return (
