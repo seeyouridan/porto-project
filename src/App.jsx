@@ -115,10 +115,10 @@ function App() {
 						<h2 className="text-center pb-10 text-4xl font-bold text-shadow-md text-shadow-white/50">
 							TOOLS & SKILLS
 						</h2>
-						<p className="w-full max-w-xl m-auto pb-4 font-[Montserrat]">
+						<p className="md:max-w-2xl max-w-md m-auto pb-4 font-[Montserrat]">
 							Based on Learning :
 						</p>
-						<div className="overflow-hidden w-full max-w-xl m-auto flex scroll-fade">
+						<div className="overflow-hidden md:max-w-2xl max-w-md m-auto flex scroll-fade">
 							<InfiniteScroll />
 						</div>
 					</div>
