@@ -6,9 +6,6 @@ import InfiniteScroll from "./components/InfiniteScroll";
 import HeaderImg from "./assets/images/hero-image.jpg";
 import Avatar from "./assets/images/about-image-dark.png";
 
-// gif
-import SchoolGif from "./assets/gif/school-animate-light.gif";
-
 const linkCv =
 	"https://drive.google.com/file/d/1bBeIVDfVWl_k-H9Is8K7L2qHj4l0Fvef/view?usp=sharing";
 
@@ -174,18 +171,7 @@ function App() {
 				<aside>
 					<div className="text-[#edede4] opacity-35 font-xs font-[Montserrat] text-shadow-md text-shadow-white/50">
 						<p>
-							Copyright © {new Date().getFullYear()} Rafly. All rights reserved.
-						</p>
-						<p>
-							Animated icons by{" "}
-							<a
-								href="https://lordicon.com"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="underline"
-							>
-								Lordicon
-							</a>
+							Copyright © {new Date().getFullYear()} seeyouridan. All rights reserved.
 						</p>
 					</div>
 				</aside>
