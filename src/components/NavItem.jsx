@@ -13,10 +13,10 @@ function NavItem() {
 					return (
 						<li key={index}>
 							<a
-								href={`${item.href}`}
+								href={item.href}
 								className="text-[#edede4] hover:text-[#edede4]/60 duration-300 hover:text-shadow-md hover:text-shadow-[#edede4]/50"
 							>
-								{`${item.label}`}
+								{item.label}
 							</a>
 						</li>
 					);
