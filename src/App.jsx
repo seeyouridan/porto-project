@@ -5,6 +5,7 @@ import InfiniteScroll from "./components/InfiniteScroll";
 // images
 import HeaderImg from "./assets/images/hero-image.jpg";
 import Avatar from "./assets/images/about-image-dark.png";
+import CardEffect from "./components/CardEffect";
 
 const linkCv =
 	"https://drive.google.com/file/d/1bBeIVDfVWl_k-H9Is8K7L2qHj4l0Fvef/view?usp=sharing";
@@ -154,6 +155,15 @@ function App() {
 									<span className="text-xs opacity-50">2021 - 2025</span>
 								</div>
 							</div>
+						</div>
+					</div>
+
+					<div className="project py-10 max-w-6xl m-auto" id="project">
+						<h2 className="text-center text-4xl font-[Montserrat] font-extrabold mb-12 text-shadow-md text-shadow-white/50">
+							PROJECTS
+						</h2>
+						<div className="flex flex-wrap justify-center gap-6">
+							<CardEffect />
 						</div>
 					</div>
 				</section>
