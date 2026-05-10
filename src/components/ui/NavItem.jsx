@@ -8,7 +8,7 @@ const items = [
 function NavItem() {
 	return (
 		<>
-			<ul className="flex gap-6 text-sm font-medium font-[Montserrat]">
+			<ul className="flex gap-6 text-sm font-medium">
 				{items.map((item, index) => {
 					return (
 						<li key={index}>
