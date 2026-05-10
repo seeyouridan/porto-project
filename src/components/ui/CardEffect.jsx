@@ -35,7 +35,7 @@ function CardEffect() {
 							/>
 						</figure>
 
-						<div className="absolute inset-0 flex items-center justify-center md:hidden z-999">
+						<div className="absolute inset-0 flex items-center justify-center md:hidden z-10">
 							<Link
 								role="button"
 								to={item.link}
