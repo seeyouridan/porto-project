@@ -15,7 +15,7 @@ function CardEffect() {
 				return (
 					<div
 						key={index}
-						className="group relative card bg-base-100 image-full md:w-82 w-72 h-52 overflow-hidden shadow-sm cursor-pointer"
+						className="group relative card bg-base-100 image-full md:w-82 h-52 overflow-hidden shadow-sm cursor-pointer"
 					>
 						<figure className="h-full">
 							<img
