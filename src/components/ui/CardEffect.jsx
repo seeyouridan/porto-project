@@ -3,8 +3,8 @@ import Tumb1 from "../../assets/images/project-1/projimg-1.png";
 const items = [
 	{
 		img: Tumb1,
-		title: "Intership Informatics System",
-		text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam unde iste cum adipisci accusantium facilis culpa quisquam? Voluptas totam explicabo illum aspernatur velit perferendis asperiores amet labore fugiat voluptate.",
+		title: "Field Work Practice System",
+		text: "The Field Work Practice System is a web-based application developed using the Laravel framework to support the process of managing field work practice activities in the school environment in a structured, effective, and integrated manner.",
 	},
 ];
 
@@ -43,7 +43,9 @@ function CardEffect() {
 							<p className="text-sm line-ver-hide">{item.text}</p>
 
 							<div className="card-actions justify-center pt-5">
-								<a href="" role="button" className="btn btn-sm">More</a>
+								<a href="" role="button" className="btn btn-sm">
+									More
+								</a>
 							</div>
 						</div>
 					</div>
