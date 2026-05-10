@@ -1,4 +1,4 @@
-import InfiniteScroll from "../../ui/InfiniteScroll";
+import InfiniteScroll from "@/components/ui/InfiniteScroll";
 
 function TechSection() {
 	return (

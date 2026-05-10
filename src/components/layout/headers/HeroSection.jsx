@@ -1,4 +1,4 @@
-import HeaderImg from "../../../assets/images/hero-image.jpg";
+import HeaderImg from "@/assets/images/hero-image.jpg";
 
 function HeroSection() {
 	return (

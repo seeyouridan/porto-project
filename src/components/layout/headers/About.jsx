@@ -1,4 +1,4 @@
-import Avatar from "../../../assets/images/about-image-dark.png";
+import Avatar from "@/assets/images/about-image-dark.png";
 
 const linkCv =
 	"https://drive.google.com/file/d/1bBeIVDfVWl_k-H9Is8K7L2qHj4l0Fvef/view?usp=sharing";

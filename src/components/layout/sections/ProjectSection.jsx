@@ -1,4 +1,4 @@
-import CardEffect from "../../ui/CardEffect";
+import CardEffect from "@/components/ui/CardEffect";
 
 function ProjectSection() {
 	return (
