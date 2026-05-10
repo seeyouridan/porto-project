@@ -1,10 +1,10 @@
-import Navbar from "../components/layout/Navbar";
-import HeroSection from "../components/layout/header/HeroSection";
-import About from "../components/layout/header/About";
-import TechSection from "../components/layout/section/TechSection";
-import EducationSection from "../components/layout/section/EducationSection";
-import ProjectSection from "../components/layout/section/ProjectSection";
-import Footer from "../components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
+import HeroSection from "@/components/layout/header/HeroSection";
+import About from "@/components/layout/header/About";
+import TechSection from "@/components/layout/section/TechSection";
+import EducationSection from "@/components/layout/section/EducationSection";
+import ProjectSection from "@/components/layout/section/ProjectSection";
+import Footer from "@/components/layout/Footer";
 
 function Home() {
 	return (

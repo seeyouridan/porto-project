@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
-import Tumb1 from "../../assets/images/project-1/image-1.png";
-import Tumb2 from "../../assets/images/project-2/image-1.png";
+import Tumb1 from "@/assets/images/project-1/image-1.png";
+import Tumb2 from "@/assets/images/project-2/image-1.png";
 
 const items = [
 	{
