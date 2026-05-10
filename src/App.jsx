@@ -8,8 +8,8 @@ function App() {
 	return (
 		<Routes>
 			<Route path="/" element={<Home />} />
-			<Route path="/detail-project-1" element={<FieldWorkPractice />} />
-			<Route path="/detail-project-2" element={<DiscordBot />} />
+			<Route path="/pkl-system" element={<FieldWorkPractice />} />
+			<Route path="/bot-discord-system" element={<DiscordBot />} />
 		</Routes>
 	);
 }
