@@ -1,39 +1,16 @@
-import Navbar from "./components/layout/Navbar";
-import HeroSection from "./components/layout/header/HeroSection";
-import About from "./components/layout/header/About";
-import TechSection from "./components/layout/section/TechSection";
-import EducationSection from "./components/layout/section/EducationSection";
-import ProjectSection from "./components/layout/section/ProjectSection";
-import Footer from "./components/layout/Footer";
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import FieldWorkPractice from "./pages/project-1/FieldWorkPractice";
+import DiscordBot from "./pages/project-2/DiscordBot";
 
 function App() {
 	return (
-		<>
-			<Navbar />
-
-			<main>
-				<header className="md:pt-27 pt-15" id="home">
-					<HeroSection />
-					<About />
-				</header>
-
-				<section>
-					<TechSection />
-					<EducationSection />
-					<ProjectSection />
-				</section>
-
-				<div>
-					<center>
-						<h1 className="font-[Montserrat] text-lg font-bold text-shadow-md text-shadow-white/50">
-							<span className="wave">🛠️</span> Work in Progress...
-						</h1>
-					</center>
-				</div>
-			</main>
-
-			<Footer />
-		</>
+		<Routes>
+			<Route path="/" element={<Home />} />
+			<Route path="/detail-project-1" element={<FieldWorkPractice />} />
+			<Route path="/detail-project-2" element={<DiscordBot />} />
+		</Routes>
 	);
 }
 
