@@ -1,10 +1,20 @@
-import Tumb1 from "../../assets/images/project-1/projimg-1.png";
+import { Link } from "react-router-dom";
+
+import Tumb1 from "../../assets/images/project-1/image-1.png";
+import Tumb2 from "../../assets/images/project-2/image-1.png";
 
 const items = [
 	{
 		img: Tumb1,
 		title: "Field Work Practice System",
 		text: "The Field Work Practice System is a web-based application developed using the Laravel framework to support the process of managing field work practice activities in the school environment in a structured, effective, and integrated manner.",
+		link: "/detail-project-1",
+	},
+	{
+		img: Tumb2,
+		title: "Discord Bot System",
+		text: "Azeeraa Bot (ZeeBot) is a multi-functional Discord bot developed using JavaScript with the discord.js library. It's designed to provide an interactive experience on Discord servers through AI chatbot features, music streaming, and simple games like rock, paper, scissors.",
+		link: "/detail-project-2",
 	},
 ];
 
@@ -26,13 +36,13 @@ function CardEffect() {
 						</figure>
 
 						<div className="absolute inset-0 flex items-center justify-center md:hidden z-999">
-							<a
+							<Link
 								role="button"
-								href=""
+								to={item.link}
 								className="btn bg-[#f6f6ee] text-[#121212]"
 							>
-								More
-							</a>
+								Detail Project
+							</Link>
 						</div>
 
 						<div className="absolute inset-0 flex flex-col justify-end p-5 text-white translate-y-full group-hover:-translate-y-3 transition-all duration-500 ease-in-out">
@@ -43,9 +53,9 @@ function CardEffect() {
 							<p className="text-sm line-ver-hide">{item.text}</p>
 
 							<div className="card-actions justify-center pt-5">
-								<a href="" role="button" className="btn btn-sm">
-									More
-								</a>
+								<Link to={item.link} role="button" className="btn btn-sm">
+									Detail Project
+								</Link>
 							</div>
 						</div>
 					</div>
