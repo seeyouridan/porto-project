@@ -1,11 +1,11 @@
 // component
-import NavItem from "./components/NavItem";
-import InfiniteScroll from "./components/InfiniteScroll";
+import NavItem from "./components/ui/NavItem";
+import InfiniteScroll from "./components/ui/InfiniteScroll";
+import CardEffect from "./components/ui/CardEffect";
 
 // images
 import HeaderImg from "./assets/images/hero-image.jpg";
 import Avatar from "./assets/images/about-image-dark.png";
-import CardEffect from "./components/CardEffect";
 
 const linkCv =
 	"https://drive.google.com/file/d/1bBeIVDfVWl_k-H9Is8K7L2qHj4l0Fvef/view?usp=sharing";

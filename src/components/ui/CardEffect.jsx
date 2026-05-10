@@ -1,4 +1,4 @@
-import Tumb1 from "../assets/images/project-1/projimg-1.png";
+import Tumb1 from "../../assets/images/project-1/projimg-1.png";
 
 const items = [
 	{
