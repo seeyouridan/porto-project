@@ -12,6 +12,11 @@ const socials = [
 		link: "mailto:raflymaulidan019@gmail.com",
 	},
 	{
+		icon: "fa-brands fa-whatsapp",
+		text: "+62-882-1279-7825",
+		link: "https://wa.me/6288212797825",
+	},
+	{
 		icon: "fa-brands fa-instagram",
 		text: "@raflyidan_",
 		link: "https://instagram.com/raflyidan_",
