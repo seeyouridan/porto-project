@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Error404desktop from "../components/svg/404-desktop";
-import Error404Mobile from "../components/svg/404-mobile";
+import Error404desktop from "@/components/svg/404-desktop";
+import Error404Mobile from "@/components/svg/404-mobile";
 
 function NotFound() {
 	return (

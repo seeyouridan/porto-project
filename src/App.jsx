@@ -11,8 +11,8 @@ function App() {
 			<Route path="/" element={<Home />} />
 
 			{/* project view */}
-			<Route path="components/pkl-system" element={<FieldWorkPractice />} />
-			<Route path="components/bot-discord-system" element={<DiscordBot />} />
+			<Route path="projects/pkl-system" element={<FieldWorkPractice />} />
+			<Route path="projects/bot-discord-system" element={<DiscordBot />} />
 
 			{/* 404 */}
 			<Route path="*" element={<NotFound />} />

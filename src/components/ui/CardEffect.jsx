@@ -8,13 +8,13 @@ const items = [
 		img: Tumb1,
 		title: "Field Work Practice System",
 		text: "The Field Work Practice System is a web-based application developed using the Laravel framework to support the process of managing field work practice activities in the school environment in a structured, effective, and integrated manner.",
-		link: "components/pkl-system",
+		link: "projects/pkl-system",
 	},
 	{
 		img: Tumb2,
 		title: "Discord Bot System",
 		text: "Azeeraa Bot (ZeeBot) is a multi-functional Discord bot developed using JavaScript with the discord.js library. It's designed to provide an interactive experience on Discord servers through AI chatbot features, music streaming, and simple games like rock, paper, scissors.",
-		link: "components/bot-discord-system",
+		link: "projects/bot-discord-system",
 	},
 ];
 
