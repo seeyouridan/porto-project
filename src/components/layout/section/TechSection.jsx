@@ -7,7 +7,7 @@ function TechSection() {
 				<h2 className="text-center pb-8 text-4xl font-[Montserrat] font-extrabold text-shadow-md text-shadow-white/50">
 					TOOLS & SKILLS
 				</h2>
-				<div className="overflow-hidden md:max-w-2xl max-w-md m-auto flex scroll-fade">
+				<div className="overflow-hidden md:max-w-5xl max-w-md m-auto flex scroll-fade">
 					<InfiniteScroll />
 				</div>
 			</div>
