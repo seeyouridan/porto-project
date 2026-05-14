@@ -1,7 +1,7 @@
 function EducationSection() {
 	return (
 		<>
-			<div className="education py-10 max-w-5xl mx-auto px-5">
+			<div className="education md:py-40 py-30 max-w-5xl mx-auto px-5">
 				<h2 className="text-center text-4xl font-[Montserrat] font-extrabold mb-12 text-shadow-md text-shadow-white/50">
 					EDUCATIONS
 				</h2>

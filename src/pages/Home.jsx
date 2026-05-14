@@ -13,7 +13,7 @@ function Home() {
 			<Navbar />
 
 			<main>
-				<header className="md:pt-27 pt-15" id="home">
+				<header className="md:pt-35 pt-20" id="home">
 					<HeroSection />
 					<About />
 				</header>
@@ -24,14 +24,6 @@ function Home() {
 					<ProjectSection />
 					<ContactSection />
 				</section>
-
-				<div>
-					<center>
-						<h1 className="font-[Montserrat] text-lg font-bold text-shadow-md text-shadow-white/50">
-							<span className="wave">🛠️</span> Work in Progress...
-						</h1>
-					</center>
-				</div>
 			</main>
 
 			<Footer />

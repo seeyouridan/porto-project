@@ -27,7 +27,7 @@ function ContactSection() {
 	return (
 		<>
 			<div
-				className="contact py-10 md:max-w-xl max-w-87.5 mx-auto px-5"
+				className="contact py-40 md:max-w-xl max-w-87.5 mx-auto px-5"
 				id="contact"
 			>
 				<h2 className="text-center text-4xl font-[Montserrat] font-extrabold mb-12 text-shadow-md text-shadow-white/50">

@@ -31,7 +31,7 @@ function CardEffect() {
 							<img
 								src={item.img}
 								alt="image-project"
-								className="object-cover w-full h-full transition-all duration-500 ease-in-out group-hover:scale-120 md:brightness-100 brightness-50 group-hover:brightness-28"
+								className="object-cover w-full h-full transition-all duration-500 ease-in-out group-hover:scale-120 md:brightness-100 brightness-75 group-hover:brightness-28"
 							/>
 						</figure>
 
