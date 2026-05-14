@@ -17,7 +17,7 @@ function Navbar() {
 			<nav className="bg-[#121212]/30 text-[#edede4] font-[Montserrat] fixed top-0 left-0 w-full z-999 backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.2)] will-change-transform">
 				<div className="flex justify-between items-center md:py-15 py-10 px-6 md:px-50">
 					<a href="/">
-						<img src="/Icon.png" className="md:h-10 h-8 rounded-full" alt="icon" />
+						<img src="/Icon.png" className="h-8 rounded-full" alt="icon" />
 					</a>
 
 					<div className="hidden md:block">
