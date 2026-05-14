@@ -7,7 +7,7 @@ function About() {
 	return (
 		<>
 			<div className="about" id="about">
-				<div className="flex flex-col md:flex-row gap-10 py-10 max-w-7xl m-auto md:px-20 px-5 items-center">
+				<div className="flex flex-col md:flex-row gap-10 md:py-40 py-25 max-w-7xl m-auto md:px-20 px-5 items-center">
 					<div className="w-full md:w-1/2 order-2 md:order-1">
 						<h1 className="md:text-[28px] text-[24px] font-bold md:text-left text-center">
 							Hi <span className="wave">👋</span>

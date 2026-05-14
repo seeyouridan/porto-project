@@ -3,7 +3,7 @@ import HeaderImg from "@/assets/images/hero-image.jpg";
 function HeroSection() {
 	return (
 		<>
-			<div className="hero m-auto max-w-full pt-5 pb-5">
+			<div className="hero m-auto max-w-full py-10">
 				<div className="gap-4 max-w-full relative w-full md:w-auto">
 					<div className="md:h-72 md:w-6xl w-full h-48 overflow-hidden md:rounded-sm">
 						<img
